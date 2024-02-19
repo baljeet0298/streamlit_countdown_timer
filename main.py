@@ -1,16 +1,16 @@
 # pylint: disable=import-error
 import streamlit as st
 import time
-import beepy as beep
+# import beepy as beep
 
 import os
 def count_down(ts):
   while ts:
     st.write(ts)
-    if ts<4:
-      beep.beep(3)
-    else:
-      beep.beep(1)
+    # if ts<4:
+    #   beep.beep(3)
+    # else:
+    #   beep.beep(1)
     time.sleep(0.5)
     ts -= 1  
   st.header("Time Up!")
