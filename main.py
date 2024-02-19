@@ -1,7 +1,7 @@
 # pylint: disable=import-error
 import streamlit as st
 import time
-# import beepy as beep
+import beepy as beep
 
 import os
 def count_down(ts):
